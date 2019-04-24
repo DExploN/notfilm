@@ -1,0 +1,1 @@
+<?function core(){	return core::getCore();}function db(){	return db::getdb();}function user(){	return \models\users::curUser();}function config($name){	return core::getCore()->config[$name];}?>

@@ -1,0 +1,19 @@
+.lc{
+	float:left;
+	position:relative
+}
+
+.lcin{
+	position:absolute;
+	top:0px;
+	left:14px;
+	width:98px;
+	padding:2px;
+	background:url('/img/opacity_pix.png');
+	overflow:hidden;
+	font-size:11px;
+	display:none;
+}
+.lc:hover .lcin{
+	display:block;
+}

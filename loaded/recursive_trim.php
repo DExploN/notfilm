@@ -1,0 +1,1 @@
+<?function recursive_trim($data){	if(is_array($data)){		foreach($data as $key=>$value){			$data[$key]=recursive_trim($value);		}	}else{		$data=trim($data);	}	return $data;}	?>
